@@ -8,7 +8,7 @@ Clone the repository:
 
 ```bash
 
-git clone https://github.com/yourusername/hostinfo.git
+git clone https://github.com/JoaoPec/hostinfo.git
 ```
 Navigate to the project directory:
 
@@ -28,7 +28,7 @@ Build the project:
 ## Usage
 
 The application provides a command-line interface with the following command:
-
+(By default, it searches for "google.com".)
 ```bash
 
 ./hostinfo ip --host <web_address>
@@ -44,3 +44,10 @@ Example:
 
 This will display the IP address(es) and name server(s) associated with the provided web address.
 
+To see the server name run the following command:
+
+```bash
+
+./hostinfo server --host <web_address>
+```
+Replace <web_address> with the desired web address for which you want to retrieve the server name.
